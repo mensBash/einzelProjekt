@@ -1,0 +1,24 @@
+1210 [main] DEBUG a.a.t.s.a.i.a.MainApplication - Application starting with arguments=[]
+2489 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+3877 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+3880 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+3946 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+6890 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.a.MainApplication - Application startup complete
+8285 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - Add new vehicle button clicked
+10965 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.AddVehicleController - Close button clicked
+10999 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+11002 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+11003 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+11009 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+11832 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - Add new vehicle button clicked
+12726 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.AddVehicleController - Add button clicked
+12823 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.AddVehicleController - Validating all input fields
+12834 [JavaFX Application Thread] WARN  a.a.t.s.a.i.R.u.AddVehicleController - Model of vehicle is empty
+12835 [JavaFX Application Thread] WARN  a.a.t.s.a.i.R.u.AddVehicleController - Year of vehicle is empty
+12835 [JavaFX Application Thread] WARN  a.a.t.s.a.i.R.u.AddVehicleController - Price of vehicle is empty
+14911 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.AddVehicleController - Close button clicked
+14954 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+14956 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+14957 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+14963 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+15980 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - Close button clicked

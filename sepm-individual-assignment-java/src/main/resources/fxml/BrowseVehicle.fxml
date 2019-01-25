@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="356.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.ac.tuwien.sepm.assignment.individual.RentAVehicle.ui.BrowseVehicleController">
+    <children>
+        <TableView fx:id="tv_vehicles" layoutX="20.0" layoutY="66.0" prefHeight="232.0" prefWidth="573.0">
+            <columns>
+                <TableColumn fx:id="tc_model" prefWidth="94.0" text="Model" />
+                <TableColumn fx:id="tc_year" text="Year" />
+                <TableColumn fx:id="tc_nrOfSeats" prefWidth="106.0" text="Number of seats" />
+                <TableColumn fx:id="tc_power" prefWidth="89.0" text="Power" />
+                <TableColumn fx:id="tc_licence" prefWidth="116.0" text="Driving Licence" />
+            <TableColumn fx:id="tc_price" prefWidth="87.0" text="Price" />
+            </columns>
+        </TableView>
+        <Button fx:id="button_save" layoutX="385.0" layoutY="317.0" mnemonicParsing="false" onAction="#onSelectVehicle" prefHeight="25.0" prefWidth="125.0" text="Select this vehicle" />
+        <Button fx:id="button_close" layoutX="530.0" layoutY="317.0" mnemonicParsing="false" onAction="#onCloseButton" prefHeight="25.0" prefWidth="56.0" text="Close" />
+      <Label layoutX="20.0" layoutY="26.0" text="Number of driving licence" />
+      <TextField fx:id="tf_nrOfLicence" layoutX="167.0" layoutY="22.0" />
+      <Label layoutX="336.0" layoutY="26.0" text="Date of issue" />
+      <DatePicker fx:id="dp_dateLicence" layoutX="420.0" layoutY="22.0" />
+    </children>
+
+</AnchorPane>

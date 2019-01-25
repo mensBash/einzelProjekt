@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.ac.tuwien.sepm.assignment.individual.RentAVehicle.ui.AddVehicleController">
+   <children>
+      <AnchorPane prefHeight="416.0" prefWidth="647.0">
+         <children>
+            <Button layoutX="497.0" layoutY="456.0" mnemonicParsing="false" onAction="#onAddButton" prefWidth="53.0" text="Add" />
+            <Button fx:id="button_close" layoutX="573.0" layoutY="456.0" mnemonicParsing="false" onAction="#onCloseButton" prefHeight="25.0" prefWidth="53.0" text="Close" />
+            <TextField fx:id="tf_model" layoutX="156.0" layoutY="113.0" />
+            <TextField fx:id="tf_year" layoutX="156.0" layoutY="149.0" />
+            <TextField fx:id="tf_description" layoutX="156.0" layoutY="184.0" />
+            <TextField fx:id="tf_seatNr" layoutX="156.0" layoutY="221.0" />
+            <TextField fx:id="tf_licenceNr" layoutX="156.0" layoutY="256.0" />
+            <TextField fx:id="tf_power" layoutX="476.0" layoutY="149.0" />
+            <TextField fx:id="tf_price" layoutX="476.0" layoutY="184.0" />
+            <Label layoutX="30.0" layoutY="153.0" text="Year of manufacture *" />
+            <Label layoutX="30.0" layoutY="117.0" text="Vehicle model *" />
+            <Label layoutX="30.0" layoutY="188.0" text="Description" />
+            <Label layoutX="30.0" layoutY="225.0" text="Number of seats" />
+            <Label layoutX="30.0" layoutY="260.0" text="Licence number **" />
+            <Label layoutX="373.0" layoutY="117.0" text="Type of drive *" />
+            <Label layoutX="373.0" layoutY="153.0" text="Power in kW ***" />
+            <Label layoutX="373.0" layoutY="188.0" text="Price per hour *" />
+            <ChoiceBox fx:id="cb_typeOfDrive" layoutX="475.0" layoutY="113.0" prefWidth="150.0" />
+            <Label layoutX="372.0" layoutY="225.0" text="Drivig licence:" />
+            <Button layoutX="165.0" layoutY="336.0" mnemonicParsing="false" onAction="#onAddPictureButton" prefHeight="25.0" prefWidth="132.0" text="Browse picture" />
+            <TextField fx:id="tf_addPicture" layoutX="333.0" layoutY="336.0" />
+            <CheckBox fx:id="cb_licenceA" layoutX="477.0" layoutY="225.0" mnemonicParsing="false" text="A" />
+            <CheckBox fx:id="cb_licenceB" layoutX="477.0" layoutY="252.0" mnemonicParsing="false" text="B" />
+            <CheckBox fx:id="cb_licenceC" layoutX="559.0" layoutY="225.0" mnemonicParsing="false" text="C" />
+            <Label layoutX="30.0" layoutY="396.0" text="*    obligatory fields" />
+            <Label layoutX="30.0" layoutY="417.0" text="**  obligatory if driving licence is chosen" />
+            <Label layoutX="30.0" layoutY="438.0" text="*** obligatory if type of drive is motorized" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

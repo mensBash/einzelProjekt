@@ -1,0 +1,46 @@
+23:01:35.251 [main] DEBUG a.a.t.s.a.i.a.MainApplication - Application starting with arguments=[]
+23:01:38.504 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+23:01:40.136 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+23:01:40.138 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+23:01:40.141 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+23:01:40.155 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+23:01:42.068 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.a.MainApplication - Application startup complete
+23:01:53.243 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - Bills button clicked
+23:01:53.244 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+23:01:53.247 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+23:01:53.248 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+23:01:53.249 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+23:01:53.253 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+23:01:55.018 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - Show statistics button clicked
+23:01:56.878 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:01:56.880 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.StatisticsController - Exception occurred
+23:02:10.157 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Bar Chart button clicked
+23:02:12.654 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:20.636 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Bar Chart button clicked
+23:02:21.888 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:22.707 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:23.345 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:23.703 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:23.913 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:24.189 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:24.428 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:25.522 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:26.325 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Bar Chart button clicked
+23:02:26.955 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:28.193 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Bar Chart button clicked
+23:02:28.655 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:29.426 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:29.564 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:30.037 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:30.762 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:30.921 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:31.555 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:32.269 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:33.195 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:33.352 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:33.658 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:33.825 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:34.049 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:34.181 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:34.312 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.StatisticsController - Generate Line Chart button clicked
+23:02:38.303 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.a.MainApplication - Application shutdown initiated

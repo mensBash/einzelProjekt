@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="392.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.ac.tuwien.sepm.assignment.individual.RentAVehicle.ui.SearchFilterController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Search criteria:" />
+      <Label layoutX="15.0" layoutY="52.0" text="Driving licence:" />
+      <CheckBox fx:id="cb_licenceA" layoutX="152.0" layoutY="52.0" mnemonicParsing="false" onAction="#onA" text="A" />
+      <CheckBox fx:id="cb_licenceB" layoutX="195.0" layoutY="52.0" mnemonicParsing="false" onAction="#onB" text="B" />
+      <CheckBox fx:id="cb_licenceC" layoutX="235.0" layoutY="52.0" mnemonicParsing="false" onAction="#onC" text="C" />
+      <Label layoutX="15.0" layoutY="90.0" text="Price per hour (lowest):" />
+      <Label layoutX="15.0" layoutY="118.0" text="Price per hour (highest):" />
+      <TextField fx:id="tf_priceLowest" layoutX="152.0" layoutY="86.0" />
+      <TextField fx:id="tf_priceHighest" layoutX="152.0" layoutY="114.0" />
+      <Label layoutX="15.0" layoutY="150.0" text="Tme interval for reservation:" />
+      <Label layoutX="25.0" layoutY="180.0" text="From" />
+      <Label layoutX="25.0" layoutY="210.0" text="To" />
+      <DatePicker fx:id="dp_dateFrom" layoutX="62.0" layoutY="176.0" prefHeight="25.0" prefWidth="149.0" />
+      <DatePicker fx:id="dp_dateTo" layoutX="62.0" layoutY="206.0" prefHeight="25.0" prefWidth="149.0" />
+      <ChoiceBox fx:id="cb_timeFrom" layoutX="221.0" layoutY="176.0" prefHeight="25.0" prefWidth="69.0" />
+      <ChoiceBox fx:id="cb_timeTo" layoutX="221.0" layoutY="206.0" prefHeight="25.0" prefWidth="69.0" />
+      <Label layoutX="18.0" layoutY="249.0" text="Model of vehicle:" />
+      <TextField fx:id="tf_model" layoutX="152.0" layoutY="245.0" />
+      <Label layoutX="17.0" layoutY="276.0" text="Type of drive:" />
+      <ChoiceBox fx:id="cb_type" layoutX="153.0" layoutY="272.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="17.0" layoutY="305.0" text="Number of seats:" />
+      <TextField fx:id="tf_seats" layoutX="153.0" layoutY="301.0" />
+      <Button fx:id="button_search" layoutX="127.0" layoutY="353.0" mnemonicParsing="false" onAction="#onSearchButton" text="Search" />
+   </children>
+</AnchorPane>

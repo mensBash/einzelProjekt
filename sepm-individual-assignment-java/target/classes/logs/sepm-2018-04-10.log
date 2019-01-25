@@ -1,0 +1,163 @@
+02:06:15.457 [at.ac.tuwien.sepm.assignment.individual.application.MainApplication.main()] DEBUG a.a.t.s.a.i.a.MainApplication - Application starting with arguments=[]
+02:06:21.026 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+02:06:22.516 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+02:06:22.525 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+02:06:22.525 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+02:06:22.538 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+02:06:25.242 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.a.MainApplication - Application startup complete
+02:06:29.866 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - Bills button clicked
+02:06:29.878 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+02:06:29.883 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+02:06:29.887 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+02:06:29.888 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+02:06:29.895 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+02:06:30.679 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - All reservations button clicked
+02:06:30.723 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+02:06:30.731 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+02:06:30.733 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+02:06:30.736 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+02:06:30.742 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+02:06:39.899 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - Close button clicked
+12:42:32.288 [main] DEBUG a.a.t.s.a.i.a.MainApplication - Application starting with arguments=[]
+12:42:33.374 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:42:34.987 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:42:34.989 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:42:34.990 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:42:35.021 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:42:37.910 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.a.MainApplication - Application startup complete
+12:42:44.043 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.VehicleTableViewController - Reservation Reservation{id=7, name='Karla', bankOrCreditCard='6011682666912323', dateFrom=2018-04-09T09:00, dateTo=2018-04-11T13:00, totalPrice=127.4, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:42:44.095 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:42:44.096 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:42:44.103 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.DetailReservationViewController - Reservation{id=7, name='Karla', bankOrCreditCard='6011682666912323', dateFrom=2018-04-09T09:00, dateTo=2018-04-11T13:00, totalPrice=127.4, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:42:44.325 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:42:44.325 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:42:47.700 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Close button clicked
+12:42:47.730 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:42:47.733 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:42:47.734 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:42:47.734 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:42:47.737 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:42:50.720 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.VehicleTableViewController - Reservation Reservation{id=9, name='Daniel', bankOrCreditCard='5201280741333730', dateFrom=2018-04-10T10:00, dateTo=2018-04-13T09:00, totalPrice=66.5625, date=2018-04-08, dateBill=2018-04-08T22:36:20.249195, numberBill=2, status='canceled'}
+12:42:50.720 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:42:50.720 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:42:50.721 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.DetailReservationViewController - Reservation{id=9, name='Daniel', bankOrCreditCard='5201280741333730', dateFrom=2018-04-10T10:00, dateTo=2018-04-13T09:00, totalPrice=66.5625, date=2018-04-08, dateBill=2018-04-08T22:36:20.249195, numberBill=2, status='canceled'}
+12:42:50.751 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:42:50.752 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:42:53.113 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Close button clicked
+12:42:53.119 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:42:53.122 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:42:53.123 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:42:53.123 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:42:53.128 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:42:55.322 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.VehicleTableViewController - Reservation Reservation{id=4, name='Maximillian', bankOrCreditCard='AT022011100003429660', dateFrom=2018-04-23T11:00, dateTo=2018-04-30T11:00, totalPrice=470.4, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:42:55.323 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:42:55.323 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:42:55.324 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.DetailReservationViewController - Reservation{id=4, name='Maximillian', bankOrCreditCard='AT022011100003429660', dateFrom=2018-04-23T11:00, dateTo=2018-04-30T11:00, totalPrice=470.4, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:42:55.347 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:42:55.348 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:42:57.106 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Close button clicked
+12:42:57.112 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:42:57.114 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:42:57.115 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:42:57.115 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:42:57.118 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:43:00.541 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.VehicleTableViewController - Reservation Reservation{id=1, name='Lena', bankOrCreditCard='AT021200000703447144', dateFrom=2018-04-09T08:00, dateTo=2018-04-11T13:00, totalPrice=204.05, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:43:00.542 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:00.542 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:00.543 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.DetailReservationViewController - Reservation{id=1, name='Lena', bankOrCreditCard='AT021200000703447144', dateFrom=2018-04-09T08:00, dateTo=2018-04-11T13:00, totalPrice=204.05, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:43:00.565 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:00.565 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:07.121 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Close button clicked
+12:43:07.127 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:43:07.129 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:43:07.129 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:43:07.130 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:43:07.134 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:43:08.799 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.VehicleTableViewController - Reservation Reservation{id=7, name='Karla', bankOrCreditCard='6011682666912323', dateFrom=2018-04-09T09:00, dateTo=2018-04-11T13:00, totalPrice=127.4, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:43:08.799 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:08.799 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:08.800 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.DetailReservationViewController - Reservation{id=7, name='Karla', bankOrCreditCard='6011682666912323', dateFrom=2018-04-09T09:00, dateTo=2018-04-11T13:00, totalPrice=127.4, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:43:08.818 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:08.818 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:13.382 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Close button clicked
+12:43:13.387 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:43:13.389 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:43:13.390 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:43:13.390 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:43:13.392 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:43:14.818 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.VehicleTableViewController - Reservation Reservation{id=2, name='Maria', bankOrCreditCard='5154579027546064', dateFrom=2018-04-09T10:00, dateTo=2018-04-14T12:00, totalPrice=523.38, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:43:14.818 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:14.819 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:14.819 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.DetailReservationViewController - Reservation{id=2, name='Maria', bankOrCreditCard='5154579027546064', dateFrom=2018-04-09T10:00, dateTo=2018-04-14T12:00, totalPrice=523.38, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:43:14.837 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:14.837 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:21.097 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Close button clicked
+12:43:21.102 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:43:21.104 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:43:21.105 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:43:21.105 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:43:21.108 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:43:24.116 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.VehicleTableViewController - Reservation Reservation{id=6, name='Matthias', bankOrCreditCard='4532938298438433', dateFrom=2018-04-12T09:00, dateTo=2018-04-16T11:00, totalPrice=88.2, date=2018-04-08, dateBill=2018-04-08T22:32:16.266262, numberBill=1, status='canceled'}
+12:43:24.117 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:24.117 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:24.118 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.DetailReservationViewController - Reservation{id=6, name='Matthias', bankOrCreditCard='4532938298438433', dateFrom=2018-04-12T09:00, dateTo=2018-04-16T11:00, totalPrice=88.2, date=2018-04-08, dateBill=2018-04-08T22:32:16.266262, numberBill=1, status='canceled'}
+12:43:24.139 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:24.139 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:25.478 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Close button clicked
+12:43:25.483 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:43:25.485 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:43:25.486 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:43:25.486 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:43:25.488 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:43:27.029 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.VehicleTableViewController - Reservation Reservation{id=3, name='Mario', bankOrCreditCard='AT026000000001349870', dateFrom=2018-04-16T12:00, dateTo=2018-04-25T12:00, totalPrice=486.0, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:43:27.030 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:27.030 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:27.031 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.DetailReservationViewController - Reservation{id=3, name='Mario', bankOrCreditCard='AT026000000001349870', dateFrom=2018-04-16T12:00, dateTo=2018-04-25T12:00, totalPrice=486.0, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:43:27.050 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:27.051 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:30.425 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Close button clicked
+12:43:30.430 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:43:30.431 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:43:30.432 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:43:30.432 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:43:30.434 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:43:32.498 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.VehicleTableViewController - Reservation Reservation{id=10, name='Anna', bankOrCreditCard='AT022040400040102634', dateFrom=2018-04-06T12:00, dateTo=2018-04-09T11:00, totalPrice=198.79999999999998, date=2018-04-08, dateBill=2018-04-08T22:39:54.371392, numberBill=3, status='paid'}
+12:43:32.499 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:32.499 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:32.499 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.DetailReservationViewController - Reservation{id=10, name='Anna', bankOrCreditCard='AT022040400040102634', dateFrom=2018-04-06T12:00, dateTo=2018-04-09T11:00, totalPrice=198.79999999999998, date=2018-04-08, dateBill=2018-04-08T22:39:54.371392, numberBill=3, status='paid'}
+12:43:32.515 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:32.515 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:35.008 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Close button clicked
+12:43:35.014 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:43:35.016 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:43:35.016 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:43:35.016 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:43:35.020 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:43:37.427 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - Bills button clicked
+12:43:37.427 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:43:37.428 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:43:37.429 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:43:37.429 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:43:37.431 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:43:39.800 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - All reservations button clicked
+12:43:39.801 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:43:39.802 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:43:39.803 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:43:39.803 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:43:39.804 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:43:48.027 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.VehicleTableViewController - Reservation Reservation{id=3, name='Mario', bankOrCreditCard='AT026000000001349870', dateFrom=2018-04-16T12:00, dateTo=2018-04-25T12:00, totalPrice=486.0, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:43:48.028 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:48.028 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:48.029 [JavaFX Application Thread] DEBUG a.a.t.s.a.i.R.u.DetailReservationViewController - Reservation{id=3, name='Mario', bankOrCreditCard='AT026000000001349870', dateFrom=2018-04-16T12:00, dateTo=2018-04-25T12:00, totalPrice=486.0, date=2018-04-08, dateBill=null, numberBill=0, status='open'}
+12:43:48.044 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting vehicles
+12:43:48.045 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.BillDAOJDBC - Getting reserved list of vehicles
+12:43:49.156 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Update button clicked
+12:43:51.894 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.DetailReservationViewController - Close button clicked
+12:43:51.900 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle
+12:43:51.901 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating done
+12:43:51.902 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.s.SimpleRentService - Getting reservations
+12:43:51.902 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating table reservation
+12:43:51.903 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.d.ReservationDAOJDBC - Populating done
+12:43:53.303 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.u.VehicleTableViewController - Close button clicked
+12:58:05.535 [main] DEBUG a.a.t.s.a.i.a.MainApplication - Application starting with arguments=[]
+12:58:06.604 [JavaFX Application Thread] INFO  a.a.t.s.a.i.R.dao.VehicleDAOJDBC - Populating table vehicle

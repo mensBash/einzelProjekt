@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="457.0" prefWidth="551.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.ac.tuwien.sepm.assignment.individual.RentAVehicle.ui.StatisticsController">
+   <children>
+      <Label layoutX="43.0" layoutY="27.0" text="Show statistics from:" />
+      <DatePicker fx:id="dp_dateFrom" layoutX="166.0" layoutY="23.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="329.0" layoutY="27.0" text="to" />
+      <DatePicker fx:id="dp_dateTo" layoutX="353.0" layoutY="23.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="43.0" layoutY="60.0" text="Driving licence:" />
+      <CheckBox fx:id="cb_none" layoutX="166.0" layoutY="60.0" mnemonicParsing="false" text="None" />
+      <CheckBox fx:id="cb_licenceA" layoutX="236.0" layoutY="60.0" mnemonicParsing="false" text="A" />
+      <CheckBox fx:id="cb_licenceB" layoutX="293.0" layoutY="60.0" mnemonicParsing="false" text="B" />
+      <CheckBox fx:id="cb_licenceC" layoutX="353.0" layoutY="60.0" mnemonicParsing="false" text="C" />
+      <Button fx:id="button_line" layoutX="135.0" layoutY="94.0" mnemonicParsing="false" onAction="#onGenerateLine" text="Generate line chart" />
+      <Button fx:id="button_bar" layoutX="293.0" layoutY="94.0" mnemonicParsing="false" onAction="#onGenerateBar" prefHeight="25.0" prefWidth="117.0" text="Generate bar chart" />
+      <LineChart fx:id="lineChart" layoutX="31.0" layoutY="131.0" prefHeight="312.0" prefWidth="490.0" visible="false">
+        <xAxis>
+          <CategoryAxis fx:id="line_Xaxis" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="line_Yaxis" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <BarChart fx:id="barChart" layoutX="31.0" layoutY="131.0" prefHeight="312.0" prefWidth="490.0" visible="false">
+        <xAxis>
+          <CategoryAxis fx:id="bar_Xaxis" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="bar_Yaxis" side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>
